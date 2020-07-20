@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideosIframe</title>
+  <style>
+    /*.todos-videos{
+      width: 600px;
+      height: 500px;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 2%);
+    }*/
+    .todos-videos{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+
+    }
+    video{
+      max-height: 225px ;
+   
+    } 
+
+    
+  </style>
+</head>
+
+<body>
+ 
+ <section class="todos-videos">
+   <video  controls  id="video1" src="./Portifolio/videos/cleancode.mp4"></video>
+   <video   autoplay controls  id="video2" src="./Portifolio/videos/novo.mp4"></video>
+   <video   controls muted  id="video3" src="./Portifolio/videos/cleancode.mp4"></video>
+   <video   controls autoplay  id="video4" src="./Portifolio/videos/cleancode.mp4"></video>
+   <video   controls   id="video5" src="./Portifolio/videos/cleancode.mp4"></video>
+   <video   controls  id="video6" src="./Portifolio/videos/cleancode.mp4"></video>
+ </section>
+
+
+</body>
+
+</html>

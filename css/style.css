@@ -1,0 +1,241 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+:root{
+  --color-white:white;
+  --light-green:#0f0f;
+  --color-rocketseat:#6643b8;
+  --color-modal:rgba(0, 0, 0,0.7);
+}
+
+html,body{
+  height:100%;
+  height: 100%;
+  background-color: #2e2936;
+  font-family: tahoma;
+}
+
+.container{
+  max-width:900px;
+  margin: 0 auto;
+}
+header.header-top{
+  width: 100%;
+  height: 80px;
+  background-color: #28252f;
+
+}
+
+header nav{
+  text-align: center;
+  height: 100%;
+  line-height: 80px;
+}
+header nav ul{
+  text-decoration: none;
+}
+
+header nav ul li{
+  display:inline-block;
+  padding:0 14px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color:white;
+  cursor:pointer;
+}
+
+header nav ul li a:hover{
+  color:var(--light-green);
+  transition: 700ms;
+}
+section{
+  width:100%;
+  background-color: #2e2936;
+}
+section .profile-author{
+  width:100%;
+  text-align: center;
+}
+
+.img-profile{
+ display: inline-block;
+}
+
+.img-profile > img{
+  max-width: 200px;
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 4px  solid var(--light-green);
+  
+}
+
+.sobre-author{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sobre-author h2, .sobre-author  p{
+  color: var(--color-white);
+  padding: 6px 0;
+}
+
+
+.mais-sobre-author{
+  max-width: 400px;
+  display: inline-block;
+}
+
+.mais-sobre-author p{
+  width:100%;
+  color:var(--color-white)
+}
+footer{
+  margin-top: 60px ;
+  padding:10px 0;
+  text-align: center;
+  background:#2e2936;
+}
+footer ul li{
+  display: inline-block;
+  padding: 0 6px;
+
+}
+footer ul li a{
+  color:var(--color-white);
+  text-decoration:none;
+  border-bottom: 2px solid rgb(55, 168, 55) ;
+}
+footer ul li a:hover{
+  color:var(--light-green);
+  transition: 700ms;
+}
+/*=== class|| turma === */
+section.turma > .container{
+ max-width: 1100px;
+}
+section.turma h2{
+  font-size:25px;
+  color:var(--color-white);
+  text-align:center;
+  padding:14px 0;
+}
+
+section.turma .cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 2%;
+
+ 
+}
+
+
+section.turma .cards .cards-img{
+  margin: 0 auto;
+  background-color: var(--color-rocketseat);
+  position:relative;
+  cursor:pointer;
+
+}
+section.turma .cards .cards-img legend p{
+  color:var(--color-white);
+  padding: 5px ;
+}
+section.turma .cards .cards-img > img{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+section.turma .cards .card-info{
+  max-width: 800px;
+  background-color: var(--color-rocketseat);
+  margin:0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+  color:var(--color-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+
+}
+
+section.turma .cards .card-info .price{
+  background: var(--color-rocketseat);
+  filter: brightness(90%);
+  padding: 8px  20px;
+  border-radius: 16px;
+}
+section.turma .cards .card-info p:first-of-type{
+  line-height: 35px ;
+}
+
+
+/*=== MODAL === */
+
+section.modal-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-modal);
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility:hidden
+}
+
+
+section.modal-overlay .modal-white-video{
+  max-width:900px;
+  height: 90%;
+  margin: 5vh auto;
+  background: var(--color-white);
+  position: relative;
+  
+}
+section.modal-overlay .modal-white-video .close{
+width: 24px;
+height:24px;
+position: absolute;
+right:8px;
+top: 8px;
+cursor:pointer;
+background: var(--color-modal);
+border-radius: 15px;
+z-index: 2;
+
+}
+
+section.modal-overlay .modal-white-video .close > p{
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  left: 7.5px;
+  line-height: 24px;
+  
+  
+}
+
+/*=== MODAL-ACTIVE === */
+
+section.active{
+  visibility: visible;
+  opacity: 1;
+  transition: 50ms;
+}
+
+iframe{
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 60px;
+  z-index: 0;
+  box-shadow: rgba(0, 0, 0,0.7);
+}
