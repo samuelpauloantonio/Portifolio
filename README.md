@@ -14,7 +14,7 @@ tudo isso feito via JavaScript.
 * JAvaScript
 
 ![portifolio-perfil](https://github.com/samuelpauloantonio/Portifolio/blob/master/img/perfil.png?raw=true);
-![portifolio-Aulas](https://github.com/samuelpauloantonio/Template_email/blob/master/imgSite.PNG);
+![portifolio-Aulas](https://github.com/samuelpauloantonio/Portifolio/blob/master/img/Porifolio.png?raw=true);
 
 Developer/aluno ............. Samuel Paulo António .........
 
