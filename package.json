@@ -1,0 +1,19 @@
+{
+  "name": "Portifolio",
+  "version": "1.0.0",
+  "description": "É um Projecto que ajuda a colocar a Mão na massa alem de fixar alguns conseitos da liguagem .",
+  "main": "modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
