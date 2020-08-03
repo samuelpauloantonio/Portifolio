@@ -12,9 +12,15 @@ tudo isso feito via JavaScript.
 * HTML5
 * CSS3 e
 * JAvaScript
+<br/>
+<br/>
+<br/>
+![portifolio-perfil](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/Porifolio.png?raw=true);
+![portifolio-Aulas](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/perfil.png?raw=true);
 
-![portifolio-perfil](https://github.com/samuelpauloantonio/Portifolio/blob/master/img/perfil.png?raw=true);
-![portifolio-Aulas](https://github.com/samuelpauloantonio/Portifolio/blob/master/img/Porifolio.png?raw=true);
+<br/>
+<br/>
+<br/>
 
 Developer/aluno ............. Samuel Paulo António .........
 
