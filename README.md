@@ -15,8 +15,14 @@ tudo isso feito via JavaScript.
 <br/>
 <br/>
 <br/>
-![portifolio-perfil](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/Porifolio.png?raw=true);
-![portifolio-Aulas](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/perfil.png?raw=true);
+
+![portifolio-perfil](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/perfil.png?raw=true);
+
+<br/>
+<br/>
+
+![portifolio-Aulas](https://github.com/samuelpauloantonio/Portifolio/blob/master/public/img/Porifolio.png?raw=true);
+
 
 <br/>
 <br/>
