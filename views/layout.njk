@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+
+    {% block title_portifolio %} {% endblock %}
+    {% block title_videos%} <title>Videos</title> {% endblock %}
+</head>
+<body>
+    <header class="header-top">
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Sobre</a>
+          </li>
+          <li>
+            <a href="/videos">Aulas</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--container-->
+  </header>
+
+
+    {% block content_profile %} {% endblock %}
+
+    {% block content_videos %} {% endblock %}
+
+<footer>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Github</a>
+          </li>
+          <li>
+            <a href="#">Twiter</a>
+          </li>
+          <li>
+            <a href="#">Linkedin</a>
+          </li>
+        </ul>
+      </nav>
+    </div><!--container-->
+  </footer>
+</body>
+</html>
