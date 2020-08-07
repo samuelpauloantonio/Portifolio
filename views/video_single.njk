@@ -1,0 +1,13 @@
+{% extends "layout.njk" %}
+
+{% block content_single %}
+
+<section class="video_single">
+    <div class="video_box">
+        <iframe src ="https://www.youtube.com/embed/{{video.id}}" frameborder="0"></iframe>
+    </div>
+</section>
+
+<script src="./modal.js"></script>
+
+{% endblock %}

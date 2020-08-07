@@ -4,10 +4,12 @@
 
 <section class="turma">
   <div class="container">
-    <div class="cards">
-      <article class="childs-of-cards" id="2alg7MQ6_sI">
+  
+      <div class="cards">
+      {% for video in videos %}
+      <article class="childs-of-cards" id="{{video.id}} ">
         <div class="cards-img">
-          <img src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" alt="card-animado">
+          <img src="{{video.imgSrc}} " alt="card-animado">
           <legend>
             <p>
               Card animando, com Js puro | Samuel Paulo Anónio
@@ -25,125 +27,16 @@
         <!--card-img-->
       </article>
       <!--childs-of-cards-->
-      <article class="childs-of-cards" id="GSqR2i-Pq6o">
-        <div class="cards-img">
-          <img src="https://img.youtube.com/vi/GSqR2i-Pq6o/maxresdefault.jpg" alt="card-animado">
-          <legend>
-            <p>
-              Card animando, com Js puro | Samuel Paulo Anónio
-            </p>
-          </legend>
-        </div>
-        <div class="card-info">
-          <p>
-            29 min
-          </p>
-          <p class="price">
-            Free
-          </p>
-        </div>
-        <!--card-img-->
-      </article>
-      <!--childs-of-cards-->
-      <article class="childs-of-cards" id="HN1UjzRSdBk">
-        <div class="cards-img">
-          <img src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg" alt="card-animado">
-          <legend>
-            <p>
-              Card animando, com Js puro | Samuel Paulo Anónio
-            </p>
-          </legend>
-        </div>
-        <div class="card-info">
-          <p>
-            23 min
-          </p>
-          <p class="price">
-            Free
-          </p>
-        </div>
-        <!--card-img-->
-      </article>
-      <!--childs-of-cards-->
-      <article class="childs-of-cards" id="rAzHvYnQ8DY">
-        <div class="cards-img">
-          <img src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg" alt="card-animado">
-          <legend>
-            <p>
-              Card animando, com Js puro | Samuel Paulo Anónio
-            </p>
-          </legend>
-        </div>
-        <div class="card-info">
-          <p>
-            64 min
-          </p>
-          <p class="price">
-            Free
-          </p>
-        </div>
-        <!--card-img-->
-      </article>
-      <!--childs-of-cards-->
-      <article class="childs-of-cards" id="RlK8nu_YErc">
-        <div class="cards-img ">
-          <img src="https://img.youtube.com/vi/RlK8nu_YErc/maxresdefault.jpg" alt="card-animado">
-          <legend>
-            <p>
-              Card animando, com Js puro | Samuel Paulo Anónio
-            </p>
-          </legend>
-        </div>
-        <div class="card-info">
-          <p>
-            107 min
-          </p>
-          <p class="price">
-            Free
-          </p>
-        </div>
-        <!--card-img-->
-      </article>
-      <!--childs-of-cards-->
-      <article class="childs-of-cards" id="u2hTwalu3J8">
-        <div class="cards-img">
-          <img src="https://img.youtube.com/vi/u2hTwalu3J8/maxresdefault.jpg" alt="card-animado">
-          <legend>
-            <p>
-              Card animando, com Js puro | Samuel Paulo Anónio
-            </p>
-          </legend>
-        </div>
-        <div class="card-info">
-          <p>
-            24 min
-          </p>
-          <p class="price">
-            Free
-          </p>
-        </div>
-        <!--card-img-->
-      </article>
-      <!--childs-of-cards-->
+       {% endfor %}
     </div>
     <!--cards-->
+   
   </div>
   <!--container-->
 </section>
-<section class="modal-overlay ">
-  <div class="modal-white-video">
-    <div class="close">
-      <p>X</p>
-    </div>
-    <!--close-->
-    <div class="modal-content">
-      <iframe src="" frameborder="0"></iframe>
 
-    </div>
-    <!--modal-content-->
-  </div>
-  <!--modal-white-video-->
-</section>
+
+
 
 
 <!--=== SCRIPT-JS ===-->
